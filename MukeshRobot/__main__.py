@@ -80,8 +80,8 @@ PM_START_TEXT = """
 ʜɪᴛ ʜᴇʟᴘ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ!*
 ➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
 ─────────────────
-[𝐍𝐀𝐊𝐒𝐇](https://t.me/naksh_accounts)
-[𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/naksh_vai)
+[𝐀𝐍𝐔𝐉](https://t.me/heroku_cc_club1)
+[𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/monstarlove)
 ─────────────────
 """
 
@@ -103,7 +103,7 @@ buttons = [
         InlineKeyboardButton(text="📚 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
     ],
     [
-        InlineKeyboardButton(text="𝐍𝐀𝐊𝐒𝐇",url="https://t.me/naksh_vai"),
+        InlineKeyboardButton(text="𝐀𝐍𝐔𝐉",url="https://t.me/heroku_cc_club1"),
     ],
     
 
@@ -212,14 +212,14 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAIEGGYAAfIoMT9AeBiusOnkfkMakldjnQACLg4AAnt7eVX09kiEJjPGUTQE")
+                "CAACAgUAAx0Cf6QaZwACagFmKeUg6GGwFpFWx8AeBzRfVT7aqAACGAYAAr3-sVTvQXTwBbu_Zh4E)
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("👹")
+            lol.edit_text("💞")
             time.sleep(0.5)
             lol.edit_text("💫")
             time.sleep(0.3)
@@ -430,7 +430,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url="https://t.me/mysterious_chatzz"
+                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url="https://t.me/monstarlove"
                         ),
                     ],
                     [
@@ -438,7 +438,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ 🍹", url="https://t.me/mysterious_chatzz"
+                            text="ɢɪᴛʜᴜʙ 🍹", url="https://t.me/heroku_cc_club1"
                         ),
                     ],
                     [
@@ -596,7 +596,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="♨️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/mysterious_chatzz"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/monstarlove"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -618,14 +618,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
 
 *ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [𝐍𝐀𝐊𝐒𝐇](https://t.me/mysterious_chatzz)
 
-{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/mysterious_chatzz).
+{BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [𝐂𝐑𝐄𝐀𝐓𝐎𝐑](https://t.me/monstarlove).
 © 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_CHAT}), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
                 [[
-        InlineKeyboardButton(text="𝐍𝐀𝐊𝐒𝐇", url="https://t.me/mysterious_chatzz")
+        InlineKeyboardButton(text="𝐀𝐍𝐔𝐉", url="https://t.me/monstarlove")
                 ],
                  [
         InlineKeyboardButton(text="🔰", callback_data="mukesh_back"),
@@ -1084,7 +1084,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**𝐌𝐀𝐃𝐄 𝐁𝐘 𝐍𝐀𝐊𝐒𝐇**
+**𝐌𝐀𝐃𝐄 𝐁𝐘 𝐀𝐍𝐔𝐉**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
